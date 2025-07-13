@@ -2,16 +2,18 @@ body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.2;
 }
-
-#profile {
-    border-radius: 360px;
-    display: block;
-    margin-top: 20px;
-    
+header{
+    background:white;
+    display:block;
 }
-
+header img{
+    border-radius: 360px;
+    margin-top: 20px;
+    width: 270px;
+    height: 270px;
+}
 #name {
-    color: brown;
+    color: #7a0017;
     font-size: 24px;
 }
 
@@ -21,13 +23,13 @@ body {
 }
 
 .thick-hr {
-    height: 4.5px;
-    background-color: brown;
+    height: 6px;
+    background-color: rgb(131, 29, 29);
     border: none;
     margin-top: 15px;
 }
 
-h2 {
+title {
     margin-top: 20px;
     color: black;
 }
@@ -36,10 +38,11 @@ ul {
     margin-left: 25px;
 }
 a:link{
-    color:red;
+    color:blue;
 }
 a:hover{
-    color:blue;
+    
+    color:red;
 }
 a:visited{
     color:purple;
@@ -47,6 +50,6 @@ a:visited{
 footer{
     text-align: center;
     padding: 30px;
-    background:brown;
+    background:#44121c;
     color:bisque;
 }
