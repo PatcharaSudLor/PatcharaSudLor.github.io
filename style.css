@@ -1,8 +1,6 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 #profile {
@@ -45,4 +43,10 @@ a:hover{
 }
 a:visited{
     color:purple;
+}
+footer{
+    text-align: center;
+    padding: 30px;
+    background:brown;
+    color:bisque;
 }
