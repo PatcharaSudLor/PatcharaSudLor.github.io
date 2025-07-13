@@ -36,3 +36,12 @@ h2 {
 ul {
     margin-left: 25px;
 }
+a:link{
+    color:red;
+}
+a:hover{
+    color:blue;
+}
+a:visited{
+    color:purple;
+}
